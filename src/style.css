@@ -1,0 +1,48 @@
+
+@font-face {
+    font-family: Minefont;
+    src: url(Minecraft.otf);
+}
+
+body {
+    background-image: url("/src/img/bg/obsidian.jpg");
+    background-size: 10%;
+    background-attachment: fixed;
+    background-color: black;
+    font-family: Minefont;
+    color: whitesmoke;
+    margin: 0px;
+    
+}
+
+.TopMenu {
+    overflow: hidden;
+    list-style-type: none;
+    text-decoration: none;
+    color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    width: 100%;
+    background: #281f3f;
+}
+
+.TopMenu li {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.main {
+    padding: 20px;
+    margin-top: 0px;
+    height: 1500px;
+}
+
+.image-bg {
+    width: 100%;
+}
